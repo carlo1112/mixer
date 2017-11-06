@@ -1,0 +1,40 @@
+#N canvas 530 312 450 300 10;
+#X declare -lib pdcontainer;
+#X obj 101 101 cnv 15 100 80 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 104 127 vradio 15 1 0 2 empty empty VUMETROS 0 -8 0 10 -162280
+-1 -1 0;
+#X text 123 141 POST-FADER;
+#X text 123 127 PRE-FADER;
+#X obj 299 190 r \$0_label;
+#X obj 144 191 state_io_set /vu_control;
+#X obj -13 325 s \$0_label;
+#X obj -13 245 inlet;
+#X obj 203 263 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 104 340 pack s f;
+#X obj 104 388 s pack_osc;
+#X obj 203 284 f;
+#X obj 104 226 t b f;
+#X msg 104 365 \$1 \$2;
+#X obj 104 262 symbol \$1;
+#X obj 104 315 symbol;
+#X msg -13 300 label /vu_control;
+#X msg 104 289 /vu_control;
+#X connect 1 0 5 0;
+#X connect 1 0 12 0;
+#X connect 4 0 5 1;
+#X connect 5 0 1 0;
+#X connect 7 0 16 0;
+#X connect 7 0 14 0;
+#X connect 8 0 11 0;
+#X connect 9 0 13 0;
+#X connect 11 0 9 1;
+#X connect 12 0 14 0;
+#X connect 12 1 8 0;
+#X connect 13 0 10 0;
+#X connect 14 0 17 0;
+#X connect 15 0 9 0;
+#X connect 16 0 6 0;
+#X connect 17 0 15 0;
+#X coords 0 -1 1 1 102 82 2 100 100;

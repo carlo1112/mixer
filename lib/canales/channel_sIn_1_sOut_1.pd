@@ -1,0 +1,80 @@
+#N canvas 0 0 1366 696 10;
+#X obj 845 75 cnv 15 210 120 empty empty Canvas 20 12 0 14 -233017
+-66577 0;
+#X msg 862 137 label \$1;
+#X obj 862 159 s canvas_set_\$0;
+#X obj 862 113 r canvas_name_\$0;
+#X obj 847 204 cnv 15 210 120 empty empty Ventana_Emergente 20 12 0
+14 -233017 -66577 0;
+#X msg 865 255 vis \$1;
+#X obj 865 233 r \$0_editor;
+#X obj 865 296 iem_send;
+#X obj 623 77 cnv 15 210 190 empty empty State 20 12 0 14 -233017 -66577
+0;
+#X obj 630 131 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 7 256 0;
+#X obj 630 180 iem_receive;
+#X obj 630 210 symbol;
+#X obj 630 240 s canvas_name_\$0;
+#X msg 630 153 set channel_1_send_1_\$1;
+#X obj 630 109 sfruit/instance channel_1_send_1;
+#X msg 950 258 set pd-editor\$1;
+#X obj 950 236 r canvas_name_\$0;
+#X obj 492 77 cnv 15 120 100 empty empty Inicial 20 12 0 14 -233017
+-66577 0;
+#X obj 502 150 s canvas_name_\$0;
+#X obj 502 128 symbol \$1;
+#X obj 502 104 initbang;
+#X obj 100 100 cnv 15 80 577 empty empty empty 20 12 0 14 -12515 -66577
+0;
+#X obj 282 327 s \$0_editor;
+#X obj -1 220 r canvas_name_\$0;
+#X obj 109 611 ui_mute \$1;
+#X obj 145 444 vu 10 160 empty empty -1 -8 0 10 -24967 -1 0 0;
+#X obj 157 444 vu 10 160 empty empty -1 -8 0 10 -24967 -1 0 0;
+#X obj 109 254 ui_editor;
+#X obj 321 216 iem_receive /\$1/vuL_control;
+#X obj 301 269 iem_receive /\$1/vuR_control;
+#X obj 301 108 r canvas_name_\$0;
+#X obj 301 133 unsymbol;
+#X obj 301 158 list;
+#X msg 301 243 set /\$1/vuR_control;
+#X msg 321 190 set /\$1/vuL_control;
+#X text 355 134 dudoso;
+#X obj 100 128 ui_graph \$1 gui_eq_graph 556 -1 1;
+#X obj 100 128 ui_graph \$1 gui_spectrum 256 0 1;
+#X text 119 73 CONTROL;
+#X obj 100 100 cnv 15 80 25 empty canvas_set_\$0 \$1 10 14 0 22 -1
+-92704 0;
+#X obj 109 189 ui_phase \$1;
+#X obj 103 319 ui_pan \$1;
+#X obj 109 377 ui_solo \$1;
+#X obj 109 442 ui_fader \$1;
+#X connect 1 0 2 0;
+#X connect 3 0 1 0;
+#X connect 5 0 7 0;
+#X connect 6 0 5 0;
+#X connect 9 0 13 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 13 0 10 0;
+#X connect 14 0 9 0;
+#X connect 15 0 7 1;
+#X connect 16 0 15 0;
+#X connect 19 0 18 0;
+#X connect 20 0 19 0;
+#X connect 23 0 24 0;
+#X connect 23 0 40 0;
+#X connect 23 0 41 0;
+#X connect 23 0 42 0;
+#X connect 23 0 43 0;
+#X connect 27 0 22 0;
+#X connect 28 0 25 0;
+#X connect 29 0 26 0;
+#X connect 30 0 31 0;
+#X connect 31 0 32 0;
+#X connect 32 0 34 0;
+#X connect 32 0 33 0;
+#X connect 33 0 29 0;
+#X connect 34 0 28 0;
+#X coords 0 -1 1 1 80 577 2 100 100;

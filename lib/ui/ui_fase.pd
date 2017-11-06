@@ -1,0 +1,17 @@
+#N canvas 81 57 666 379 10;
+#X declare -lib pdcontainer;
+#X obj 100 100 tgl 60 0 empty empty Fase 5 30 0 22 -4183 -159808 -92704
+0 1;
+#X obj -9 130 s \$0_label;
+#X obj 306 101 r \$0_label;
+#X obj -9 77 inlet;
+#X obj 170 101 state_io_set /\$1/fase;
+#X obj 101 75 init 0;
+#X msg -9 103 label /\$1/fase;
+#X connect 0 0 4 0;
+#X connect 2 0 4 1;
+#X connect 3 0 6 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X coords 0 -1 1 1 60 60 2 100 100;

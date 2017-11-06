@@ -1,0 +1,79 @@
+#N canvas 960 0 942 962 10;
+#X declare -lib pdcontainer;
+#X declare -lib pdcontainer;
+#X declare -lib pdcontainer;
+#X declare -lib pdcontainer;
+#X obj 624 35 cnv 15 210 190 empty empty State 20 12 0 14 -233017 -66577
+0;
+#X obj 631 89 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 2 256;
+#X obj 631 138 iem_receive;
+#X obj 631 168 symbol;
+#X obj 631 198 s canvas_name_\$0;
+#X msg 631 111 set channel_1_send_1_\$1;
+#X obj 631 67 sfruit/instance channel_1_send_1;
+#X obj 845 164 cnv 15 210 120 empty empty Ventana_Emergente 20 12 0
+14 -233017 -66577 0;
+#X msg 863 215 vis \$1;
+#X obj 863 193 r \$0_editor;
+#X obj 863 256 iem_send;
+#X msg 948 213 set pd-editor\$1;
+#X obj 948 191 r canvas_name_\$0;
+#X obj 845 35 cnv 15 210 120 empty empty Canvas 20 12 0 14 -233017
+-66577 0;
+#X msg 862 97 label \$1;
+#X obj 862 119 s canvas_set_\$0;
+#X obj 862 73 r canvas_name_\$0;
+#X obj 492 35 cnv 15 120 100 empty empty Inicial 20 12 0 14 -233017
+-66577 0;
+#X obj 502 108 s canvas_name_\$0;
+#X obj 502 86 symbol \$1;
+#X obj 502 62 initbang;
+#X obj 455 72 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 100 100 cnv 15 80 577 empty empty empty 20 12 0 14 -12515 -66577
+0;
+#X text 119 73 CONTROL;
+#X obj 184 339 s \$0_editor;
+#X obj -11 180 r canvas_name_\$0;
+#X obj 109 255 ui_editor;
+#X obj 109 612 ui_mute \$1;
+#X obj 148 445 vu 20 160 empty empty -1 -8 0 10 -24967 -1 0 0;
+#X obj 286 310 r canvas_name_\$0;
+#X obj 286 335 unsymbol;
+#X obj 286 360 list;
+#X text 340 332 dudoso;
+#X obj 100 128 ui_graph \$1 gui_eq_graph 556 -1 1;
+#X obj 100 128 ui_graph \$1 gui_spectrum 256 0 1;
+#X obj 100 100 cnv 15 80 25 empty canvas_set_\$0 AUX1 10 14 0 22 -1
+-92704 0;
+#X obj 286 412 iem_receive /\$1/vu_control;
+#X msg 286 386 set /\$1/vu_control;
+#X obj 109 190 ui_phase \$1;
+#X obj 109 378 ui_solo \$1;
+#X obj 109 443 ui_fader \$1;
+#X connect 1 0 5 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 5 0 2 0;
+#X connect 6 0 1 0;
+#X connect 8 0 10 0;
+#X connect 9 0 8 0;
+#X connect 11 0 10 1;
+#X connect 12 0 11 0;
+#X connect 14 0 15 0;
+#X connect 16 0 14 0;
+#X connect 19 0 18 0;
+#X connect 20 0 19 0;
+#X connect 21 0 19 0;
+#X connect 25 0 27 0;
+#X connect 25 0 38 0;
+#X connect 25 0 39 0;
+#X connect 25 0 40 0;
+#X connect 26 0 24 0;
+#X connect 29 0 30 0;
+#X connect 30 0 31 0;
+#X connect 31 0 37 0;
+#X connect 36 0 28 0;
+#X connect 37 0 36 0;
+#X coords 0 -1 1 1 80 577 2 100 100;

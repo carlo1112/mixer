@@ -1,0 +1,16 @@
+#N canvas 500 212 450 300 10;
+#X obj 19 54 eq7.mmb~;
+#X obj 115 18 loadbang;
+#X msg 115 37 coefflist 1;
+#X obj 20 -2 inlet~;
+#X obj 19 111 outlet~;
+#X obj 64 -2 inlet;
+#X obj 76 111 outlet~;
+#X obj 127 111 outlet;
+#X connect 0 0 4 0;
+#X connect 0 0 6 0;
+#X connect 0 1 7 0;
+#X connect 1 0 2 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 0;
+#X connect 5 0 0 1;

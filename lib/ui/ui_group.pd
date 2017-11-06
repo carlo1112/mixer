@@ -1,0 +1,25 @@
+#N canvas 988 419 610 342 10;
+#X declare -lib pdcontainer;
+#X obj -47 181 s \$0_label;
+#X obj 100 100 tgl 28 0 empty empty \$2 1 14 0 15 -12506 -245729 -92704
+0 1;
+#X obj 349 101 r \$0_label;
+#X obj -47 130 pack s s;
+#X obj 18 102 symbol \$2;
+#X obj -47 103 symbol \$1;
+#X obj 101 74 init 0;
+#X msg -47 155 label /\$1/\$2/assign-bus;
+#X obj -47 75 inlet;
+#X obj 18 75 loadbang;
+#X obj 160 101 state_io_set /\$1/\$2/assign-bus;
+#X connect 1 0 10 0;
+#X connect 2 0 10 1;
+#X connect 3 0 7 0;
+#X connect 4 0 3 1;
+#X connect 5 0 3 0;
+#X connect 6 0 10 0;
+#X connect 7 0 0 0;
+#X connect 8 0 5 0;
+#X connect 9 0 4 0;
+#X connect 10 0 1 0;
+#X coords 0 -1 1 1 28 28 2 100 100;

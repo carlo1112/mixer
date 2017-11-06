@@ -1,0 +1,18 @@
+/$1/aux1/fader
+/$1/aux2/fader
+/$1/aux3/fader
+/$1/aux4/fader
+
+/$1/aux1/prepost
+/$1/aux2/prepost
+/$1/aux3/prepost
+/$1/aux4/prepost
+
+/$1/group12
+/$1/group34
+/$1/group56
+/$1/group78
+/$1/groupLR
+
+
+/$1/aux1/fader, /$1/aux2/fader, /$1/aux3/fader, /$1/aux4/fader, /$1/aux1/prepost, /$1/aux2/prepost, /$1/aux3/prepost, /$1/aux4/prepost, /$1/group12, /$1/group34, /$1/group56, /$1/group78, /$1/groupLR

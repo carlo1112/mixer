@@ -1,0 +1,1 @@
+open-stage-control.exe -l Control_7.1.js -n -s 127.0.0.1:9960 -o 9950 -p 8080

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1440527169 source:d:\dropbox\rieracattaneo\pd\multicatch\multicatch.c
+	"m_pd.h"
+	<string.h>
+
+1439933441 d:\dropbox\rieracattaneo\pd\multicatch\m_pd.h
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+
+1494859366 source:d:\dropbox\cattaneoriera\mixer\mixer 2017\mixer 2.0 08\extra\multicatch\multicatch.c
+	"m_pd.h"
+	<string.h>
+
+1482423890 d:\dropbox\cattaneoriera\mixer\mixer 2017\mixer 2.0 08\extra\multicatch\m_pd.h
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+

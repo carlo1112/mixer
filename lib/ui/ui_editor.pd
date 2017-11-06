@@ -1,0 +1,13 @@
+#N canvas 486 220 450 286 10;
+#X obj 100 100 bng 60 250 50 0 empty empty EQ 17 30 0 22 -4183 -4160
+-92704;
+#X obj 101 183 alternate;
+#X obj 188 183 f 0;
+#X obj 162 183 f 1;
+#X obj 218 183 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 1 2 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 0;
+#X coords 0 -1 1 1 60 60 2 100 100;

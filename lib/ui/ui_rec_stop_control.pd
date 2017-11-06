@@ -1,0 +1,36 @@
+#N canvas 738 41 450 571 10;
+#X declare -lib pdcontainer;
+#X obj 102 102 tgl 15 1 empty empty Rec/Stop 20 9 0 12 -258113 -1 -1
+0 1;
+#X obj 356 98 r \$0_label;
+#X obj 211 98 state_io_set /rec-stop;
+#X obj -15 235 s \$0_label;
+#X obj -15 155 inlet;
+#X obj 201 173 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 102 250 pack s f;
+#X obj 102 298 s pack_osc;
+#X obj 201 194 f;
+#X obj 102 136 t b f;
+#X msg 102 275 \$1 \$2;
+#X obj 102 172 symbol \$1;
+#X obj 102 225 symbol;
+#X msg -15 210 label /rec-stop;
+#X msg 102 199 /rec-stop;
+#X connect 0 0 2 0;
+#X connect 0 0 9 0;
+#X connect 1 0 2 1;
+#X connect 2 0 0 0;
+#X connect 4 0 13 0;
+#X connect 4 0 11 0;
+#X connect 5 0 8 0;
+#X connect 6 0 10 0;
+#X connect 8 0 6 1;
+#X connect 9 0 11 0;
+#X connect 9 1 5 0;
+#X connect 10 0 7 0;
+#X connect 11 0 14 0;
+#X connect 12 0 6 0;
+#X connect 13 0 3 0;
+#X connect 14 0 12 0;
+#X coords 0 -1 1 1 19 19 2 100 100;

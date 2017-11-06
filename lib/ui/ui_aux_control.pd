@@ -1,0 +1,39 @@
+#N canvas 579 162 742 447 10;
+#X obj 417 196 r \$0_label;
+#X obj 101 101 cnv 15 102 80 empty empty empty 20 12 0 14 -4032 -66577
+0;
+#X obj 112 127 vradio 15 1 0 2 empty empty BUS_\$1 0 -8 0 10 -162280
+-1 -1 0;
+#X text 131 141 POST-FADER;
+#X text 131 127 PRE-FADER;
+#X obj -45 295 s \$0_label;
+#X obj -45 225 inlet;
+#X obj 211 243 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 112 320 pack s f;
+#X obj 112 368 s pack_osc;
+#X obj 211 264 f;
+#X obj 112 206 t b f;
+#X msg 112 345 \$1 \$2;
+#X obj 112 242 symbol \$1;
+#X obj 112 295 symbol;
+#X msg -45 270 label /aux/\$1/control;
+#X msg 112 269 /aux/\$1/control;
+#X obj 232 196 state_io_set /aux/\$1/control;
+#X connect 0 0 17 1;
+#X connect 2 0 11 0;
+#X connect 2 0 17 0;
+#X connect 6 0 15 0;
+#X connect 6 0 13 0;
+#X connect 7 0 10 0;
+#X connect 8 0 12 0;
+#X connect 10 0 8 1;
+#X connect 11 0 13 0;
+#X connect 11 1 7 0;
+#X connect 12 0 9 0;
+#X connect 13 0 16 0;
+#X connect 14 0 8 0;
+#X connect 15 0 5 0;
+#X connect 16 0 14 0;
+#X connect 17 0 2 0;
+#X coords 0 -1 1 1 104 82 2 100 100;

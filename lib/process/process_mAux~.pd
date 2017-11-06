@@ -1,0 +1,18 @@
+#N canvas 559 291 378 285 10;
+#X obj 49 80 multiplex~ 0 1;
+#X obj 50 38 r~ /\$1/bus_pre;
+#X obj 148 38 r~ /\$1/bus_post;
+#X obj 124 108 r /\$1/aux/\$2/fader;
+#X obj 48 163 mthrow~ \$2;
+#X obj 49 132 process_gain~;
+#X obj 180 150 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 9 12 r /aux/\$2/control;
+#X text 116 11 pre/post;
+#X connect 0 0 5 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 5 1;
+#X connect 3 0 6 0;
+#X connect 5 0 4 0;
+#X connect 7 0 0 0;

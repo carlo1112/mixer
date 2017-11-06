@@ -1,0 +1,12 @@
+#N canvas 661 250 861 437 10;
+#X text 9 7 audio;
+#X obj 9 27 inlet~;
+#X obj 80 92 outlet;
+#X obj 9 92 outlet~;
+#X text 9 106 audio;
+#X text 92 108 vu;
+#X text 6 -25 vu~;
+#X obj 80 68 prvu~;
+#X connect 1 0 3 0;
+#X connect 1 0 7 0;
+#X connect 7 0 2 0;

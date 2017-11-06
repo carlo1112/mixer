@@ -1,0 +1,19 @@
+#N canvas 965 433 811 443 10;
+#X declare -lib pdcontainer;
+#X obj -1 12 cnv 15 300 300 empty empty empty 20 12 0 14 -12515 -66577
+0;
+#X obj 100 100 tgl 60 0 empty empty Mute 5 28 0 22 -12506 -258113 -92704
+0 1;
+#X obj 100 66 init 0;
+#X obj 301 103 r \$0_label;
+#X obj 164 103 state_io_set /\$1/mute;
+#X obj -6 145 s \$0_label;
+#X obj -6 95 inlet;
+#X msg -6 120 label /\$1/mute;
+#X connect 1 0 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 1;
+#X connect 4 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 5 0;
+#X coords 0 -1 1 1 60 60 2 100 100;

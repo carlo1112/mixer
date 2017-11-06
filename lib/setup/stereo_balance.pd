@@ -1,0 +1,11 @@
+#N canvas 748 129 463 346 10;
+#X obj 56 67 expr if($f1>0 \, (45-$f1)/45 \, 1) \; if($f1<0 \, ($f1+45)/45
+\, 1);
+#X obj 56 -2 inlet;
+#X obj 56 127 outlet;
+#X obj 239 127 outlet;
+#X obj 56 33 clip -45 45;
+#X connect 0 0 2 0;
+#X connect 0 1 3 0;
+#X connect 1 0 4 0;
+#X connect 4 0 0 0;

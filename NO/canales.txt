@@ -1,0 +1,4 @@
+#X obj 13 3 channel_in1_out2_aux4_group4 CH1;
+#X obj 124 3 channel_in1_out2_aux4_group4 CH2;
+#X obj 233 3 channel_in1_out2_aux4_group4 CH3;
+#X obj 344 3 channel_in1_out2_aux4_group4 CH4;

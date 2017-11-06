@@ -1,0 +1,52 @@
+#N canvas 278 83 487 573 10;
+#X declare -lib pdcontainer;
+#X declare -lib pdcontainer;
+#X obj 101 101 cnv 15 105 80 empty empty empty 20 12 0 14 -258113 -66577
+0;
+#X obj 318 100 ui_setup_solo_fader;
+#X obj 318 72 inlet;
+#X obj 289 195 r \$0_label;
+#X text 126 125 PFL;
+#X text 126 141 AFL;
+#X text 126 156 APL;
+#X obj 106 127 vradio 15 1 0 3 empty empty SOLO-BUS 0 -8 0 10 -162280
+-1 -1 0;
+#X obj 164 129 knob 32 32 0 100 0 1 empty empty SOLO 2 -10 0 12 -262144
+-261234 -1 0 1;
+#X obj 126 195 state_io_set /solo/control;
+#X obj -31 315 s \$0_label;
+#X obj -31 245 inlet;
+#X obj 205 263 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 106 340 pack s f;
+#X obj 106 388 s pack_osc;
+#X obj 205 284 f;
+#X obj 106 226 t b f;
+#X msg 106 365 \$1 \$2;
+#X obj 106 262 symbol \$1;
+#X obj 106 315 symbol;
+#X msg 106 289 /solo/control;
+#X msg -31 290 label /solo/control;
+#X obj 370 194 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 -10 256;
+#X connect 1 0 8 0;
+#X connect 1 0 22 0;
+#X connect 2 0 1 0;
+#X connect 3 0 9 1;
+#X connect 7 0 9 0;
+#X connect 7 0 16 0;
+#X connect 8 0 1 1;
+#X connect 9 0 7 0;
+#X connect 11 0 21 0;
+#X connect 11 0 18 0;
+#X connect 12 0 15 0;
+#X connect 13 0 17 0;
+#X connect 15 0 13 1;
+#X connect 16 0 18 0;
+#X connect 16 1 12 0;
+#X connect 17 0 14 0;
+#X connect 18 0 20 0;
+#X connect 19 0 13 0;
+#X connect 20 0 19 0;
+#X connect 21 0 10 0;
+#X coords 0 -1 1 1 107 82 2 100 100;

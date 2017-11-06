@@ -1,0 +1,8 @@
+#N canvas 367 316 170 129 10;
+#X obj -698 -147 inlet~;
+#X obj -698 -87 outlet~;
+#X obj -698 -117 gain~ 50;
+#X obj -646 -148 inlet;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 1;

@@ -1,0 +1,27 @@
+cyclone
+zexy  (startup)
+jmmmp 
+iemguts: initbang
+iemlib(v0.0 extended): fadtorms, rmstofad, iem_receive, iem_send, transf_fader
+pdcontainer
+purepd
+tof
+motex: pan~
+sfruit: instance
+
+
+MMB
+windowing
+hcs
+ggee
+
+
+CARLOS
+
+mrpeach: packOSC, unpackOSC, udpreceive 8000, udpsend (startup??? no funciona en el inicio de pd) 
+ext13: ftos
+ekext: cup
+flatgui: knob
+
+
+ 

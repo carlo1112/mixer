@@ -1,0 +1,17 @@
+#N canvas 855 386 474 323 10;
+#X declare -lib pdcontainer;
+#X obj -16 128 s \$0_label;
+#X obj -16 68 inlet;
+#X obj 100 100 tgl 25 0 empty empty Player 30 15 0 12 -12506 -4034
+-92704 0 1;
+#X obj 338 100 r \$0_label;
+#X obj 190 100 state_io_set /\$1/player;
+#X msg -16 103 label /\$1/player;
+#X obj 101 71 r /playrec/player;
+#X connect 1 0 5 0;
+#X connect 2 0 4 0;
+#X connect 3 0 4 1;
+#X connect 4 0 2 0;
+#X connect 5 0 0 0;
+#X connect 6 0 2 0;
+#X coords 0 -1 1 1 25 25 2 100 100;

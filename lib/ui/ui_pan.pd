@@ -1,0 +1,20 @@
+#N canvas 836 5 452 631 10;
+#X declare -lib pdcontainer;
+#X obj 124 100 bng 25 250 50 0 empty empty C 7 13 0 20 -4183 -262144
+-92704;
+#X obj 204 126 state_io_set /\$1/pan;
+#X obj 336 126 r \$0_label;
+#X obj 204 105 init 0;
+#X obj -3 155 s \$0_label;
+#X obj -3 105 inlet;
+#X msg -3 130 label /\$1/pan;
+#X obj 103 128 hsl 69 25 -45 45 0 0 empty empty PAN 15 13 0 22 -4183
+-262144 -92704 3475 1;
+#X connect 0 0 3 0;
+#X connect 1 0 7 0;
+#X connect 2 0 1 1;
+#X connect 3 0 7 0;
+#X connect 5 0 6 0;
+#X connect 6 0 4 0;
+#X connect 7 0 1 0;
+#X coords 0 -1 1 1 74 53 2 100 100;

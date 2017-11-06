@@ -1,0 +1,24 @@
+#N canvas 0 0 450 300 10;
+#X obj 99 51 inlet;
+#X text 43 31 audio;
+#X obj 43 51 inlet~;
+#X obj 43 180 *~;
+#X obj 43 206 outlet~;
+#X text 43 220 audio;
+#X text 100 32 MUTE;
+#X obj 99 145 line~;
+#X obj 99 77 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X floatatom 65 124 5 0 0 0 - - -;
+#X msg 126 123 20;
+#X text 152 124 interpol-time ms;
+#X obj 154 60 init 0;
+#X connect 0 0 8 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 7 0 3 1;
+#X connect 8 0 10 0;
+#X connect 8 0 7 0;
+#X connect 8 0 9 0;
+#X connect 10 0 7 1;
+#X connect 12 0 8 0;

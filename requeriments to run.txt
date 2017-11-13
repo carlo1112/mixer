@@ -1,7 +1,0 @@
-To use in Pd Vanilla:
-Install librarys: cyclone, ekext, ext13, ggee, hcs, iemguts, iemlib, jmmmp, motex, mrpeach, pdcontainer, purepd, sfruit, tof, windowing, zexy (add at startup).
-Execute Pd, open consola.pd, and the open control.pd or use the Open Stage Control's control interface. 
-
-To use Open Stage Control's control interface:
-Download from http://osc.ammd.net osc v0.17.5. Copy control.js and control.bat to osc main folder and the execute control.bat.
- 

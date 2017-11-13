@@ -8,15 +8,14 @@ EXPORTS
     mcatch_tilde_perf8 @7
     mcatch_tilde_perform @8
     mcatch_tilde_setup @9
-    mct_class @10 DATA
-    mct_names @11 DATA
-    mct_zero @12 DATA
-    mthrow_tilde_dsp @13
-    mthrow_tilde_new @14
-    mthrow_tilde_perform @15
-    mthrow_tilde_set @16
-    mthrow_tilde_setup @17
-    multicatch_setup @18
+    mct_names @10 DATA
+    mct_zero @11 DATA
+    mthrow_tilde_dsp @12
+    mthrow_tilde_new @13
+    mthrow_tilde_perform @14
+    mthrow_tilde_set @15
+    mthrow_tilde_setup @16
+    multicatch_setup @17
 
 IMPORTS
 

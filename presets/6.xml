@@ -22,7 +22,7 @@
             <s>/AUX1/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -54,7 +54,7 @@
             <s>/AUX2/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -86,7 +86,7 @@
             <s>/AUX3/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -118,7 +118,7 @@
             <s>/AUX4/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -254,7 +254,7 @@
             <s>/CH1/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -406,7 +406,7 @@
             <s>/CH2/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -558,7 +558,7 @@
             <s>/CH3/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -710,7 +710,7 @@
             <s>/CH4/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -862,7 +862,7 @@
             <s>/CH5/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1014,7 +1014,7 @@
             <s>/CH6/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1166,7 +1166,7 @@
             <s>/CH7/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1318,7 +1318,7 @@
             <s>/CH8/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1366,7 +1366,7 @@
             <s>/G12/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1406,7 +1406,7 @@
             <s>/G34/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1446,7 +1446,7 @@
             <s>/G56/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1486,7 +1486,7 @@
             <s>/G78/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1526,7 +1526,7 @@
             <s>/L-R/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1566,7 +1566,7 @@
             <s>/S1/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1606,7 +1606,7 @@
             <s>/S2/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1646,7 +1646,7 @@
             <s>/S3/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>
@@ -1686,7 +1686,7 @@
             <s>/S4/mute</s>
         </key>
         <value>
-            <f>0</f>
+            <f>1</f>
         </value>
     </element>
     <element>

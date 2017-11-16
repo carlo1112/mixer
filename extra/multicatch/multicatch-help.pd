@@ -4,19 +4,19 @@
 #X obj 19 81 r~ one;
 #X obj 75 18 sig~ 1;
 #X obj 18 107 unsig~ 100;
-#X obj 18 130 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 1 256;
+#X obj 18 130 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 1 256;
 #X obj 99 81 r~ one;
 #X obj 98 107 unsig~ 100;
-#X obj 98 130 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 1 256;
+#X obj 98 130 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 1 256;
 #X obj 179 81 r~ one;
 #X obj 178 107 unsig~ 100;
-#X obj 178 130 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 1 256;
+#X obj 178 130 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 1 256;
 #X obj 354 110 unsig~ 100;
-#X obj 354 133 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 2 256;
+#X obj 354 133 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 2 256;
 #X obj 270 55 throw~ two;
 #X obj 355 56 throw~ two;
 #X obj 434 55 throw~ two;
@@ -25,23 +25,21 @@
 #X obj 356 30 sig~ 0.667;
 #X obj 435 30 sig~ 0.667;
 #X obj 19 364 unsig~ 100;
-#X obj 19 387 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 3 256;
+#X obj 19 387 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 3 256;
 #X obj 117 366 unsig~ 100;
-#X obj 117 389 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 3 256;
+#X obj 117 389 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 3 256;
 #X obj 218 367 unsig~ 100;
-#X obj 218 390 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 3 256;
+#X obj 218 390 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 3 256;
 #X obj 19 246 sig~ 1;
 #X obj 118 245 sig~ 1;
 #X obj 216 246 sig~ 1;
-#X obj 617 398 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 0 256;
+#X obj 617 398 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
 #X obj 615 224 noise~;
 #X obj 617 375 unsig~ 100;
-#X obj 374 249 noise~;
-#X obj 376 400 unsig~ 500;
 #X obj 19 335 mcatch~ three;
 #X obj 118 335 mcatch~ three;
 #X obj 218 334 mcatch~ three;
@@ -52,16 +50,17 @@
 #X obj 566 284 mthrow~ q;
 #X obj 654 283 mthrow~ q;
 #X obj 654 262 *~ -1;
-#X obj 376 423 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
--262144 -1 -1 0 256;
-#X obj 457 365 *~ -1;
 #X obj 569 40 loadbang;
 #X msg 569 63 \; pd dsp 1;
-#X obj 375 279 mthrow~ c;
 #X obj 19 196 declare -lib multicatch;
+#X obj 376 400 unsig~ 500;
+#X obj 376 423 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 457 365 *~ -1;
 #X obj 376 337 mcatch~ c;
 #X obj 456 337 mcatch~ c;
-#X obj 455 199 sig~ 0;
+#X obj 374 249 noise~;
+#X obj 375 279 mthrow~ c;
 #X connect 1 0 3 0;
 #X connect 2 0 0 0;
 #X connect 3 0 4 0;
@@ -77,20 +76,20 @@
 #X connect 20 0 21 0;
 #X connect 22 0 23 0;
 #X connect 24 0 25 0;
-#X connect 26 0 39 0;
-#X connect 27 0 37 0;
-#X connect 28 0 38 0;
+#X connect 26 0 37 0;
+#X connect 27 0 35 0;
+#X connect 28 0 36 0;
+#X connect 30 0 39 0;
 #X connect 30 0 41 0;
-#X connect 30 0 43 0;
 #X connect 31 0 29 0;
-#X connect 32 0 48 0;
-#X connect 33 0 44 0;
-#X connect 34 0 20 0;
-#X connect 35 0 22 0;
-#X connect 36 0 24 0;
-#X connect 40 0 31 0;
-#X connect 43 0 42 0;
-#X connect 45 0 33 0;
-#X connect 46 0 47 0;
-#X connect 50 0 33 0;
-#X connect 51 0 45 0;
+#X connect 32 0 20 0;
+#X connect 33 0 22 0;
+#X connect 34 0 24 0;
+#X connect 38 0 31 0;
+#X connect 41 0 40 0;
+#X connect 42 0 43 0;
+#X connect 45 0 46 0;
+#X connect 47 0 45 0;
+#X connect 48 0 45 0;
+#X connect 49 0 47 0;
+#X connect 50 0 51 0;

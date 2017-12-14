@@ -77,7 +77,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -214,7 +214,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -351,7 +351,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -488,7 +488,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -625,7 +625,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -762,7 +762,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -899,7 +899,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -1036,7 +1036,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -1183,7 +1183,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -2690,7 +2690,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -3416,7 +3416,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -4021,7 +4021,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -4626,7 +4626,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -5231,7 +5231,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -5836,7 +5836,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -6441,7 +6441,7 @@
                                                 "horizontal": false,
                                                 "compact": false,
                                                 "color": "auto",
-                                                "snap": true,
+                                                "snap": false,
                                                 "spring": false,
                                                 "range": {
                                                     "min": {
@@ -8912,7 +8912,7 @@
                                         "horizontal": false,
                                         "compact": false,
                                         "color": "auto",
-                                        "snap": true,
+                                        "snap": false,
                                         "spring": false,
                                         "range": {
                                             "min": {
@@ -9016,7 +9016,7 @@
                                         "horizontal": false,
                                         "compact": false,
                                         "color": "auto",
-                                        "snap": true,
+                                        "snap": false,
                                         "spring": false,
                                         "range": {
                                             "min": {
@@ -9120,7 +9120,7 @@
                                         "horizontal": false,
                                         "compact": false,
                                         "color": "auto",
-                                        "snap": true,
+                                        "snap": false,
                                         "spring": false,
                                         "range": {
                                             "min": {
@@ -9224,7 +9224,7 @@
                                         "horizontal": false,
                                         "compact": false,
                                         "color": "auto",
-                                        "snap": true,
+                                        "snap": false,
                                         "spring": false,
                                         "range": {
                                             "min": {
@@ -9414,7 +9414,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -9551,7 +9551,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -9688,7 +9688,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -9825,7 +9825,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -9962,7 +9962,7 @@
                                 "horizontal": false,
                                 "compact": false,
                                 "color": "auto",
-                                "snap": true,
+                                "snap": false,
                                 "spring": false,
                                 "range": {
                                     "min": {
@@ -10172,7 +10172,7 @@
                         "horizontal": false,
                         "compact": false,
                         "color": "auto",
-                        "snap": true,
+                        "snap": false,
                         "spring": false,
                         "range": {
                             "min": {

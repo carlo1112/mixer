@@ -47,12 +47,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -69,8 +65,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -123,12 +118,8 @@
                                 "label": "CH1",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -145,28 +136,12 @@
                                 "address": "/CH1/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -209,12 +184,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -231,8 +202,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -285,12 +255,8 @@
                                 "label": "CH2",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -307,28 +273,12 @@
                                 "address": "/CH2/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -371,12 +321,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -393,8 +339,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -447,12 +392,8 @@
                                 "label": "CH3",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -469,28 +410,12 @@
                                 "address": "/CH3/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -533,12 +458,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -555,8 +476,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -609,12 +529,8 @@
                                 "label": "CH4",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -631,28 +547,12 @@
                                 "address": "/CH4/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -695,12 +595,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -717,8 +613,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -771,12 +666,8 @@
                                 "label": "CH5",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -793,28 +684,12 @@
                                 "address": "/CH5/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -857,12 +732,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -879,8 +750,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -933,12 +803,8 @@
                                 "label": "CH6",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -955,28 +821,12 @@
                                 "address": "/CH6/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -1019,12 +869,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -1041,8 +887,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -1095,12 +940,8 @@
                                 "label": "CH7",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -1117,28 +958,12 @@
                                 "address": "/CH7/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -1181,12 +1006,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -1203,8 +1024,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -1257,12 +1077,8 @@
                                 "label": "CH8",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -1279,28 +1095,12 @@
                                 "address": "/CH8/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     }
                 ],
                 "type": "tab",
@@ -1370,12 +1170,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -1428,32 +1224,13 @@
                                                 "label": "CH1",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -1484,9 +1261,7 @@
                                                 "precision": 2,
                                                 "address": "/CH1/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -1505,9 +1280,7 @@
                                                 "precision": 2,
                                                 "address": "/CH1/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -1526,9 +1299,7 @@
                                                 "precision": 2,
                                                 "address": "/CH1/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -1547,9 +1318,7 @@
                                                 "address": "/CH1/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -1568,21 +1337,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH1/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -1650,12 +1410,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -1711,12 +1466,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -1772,12 +1522,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -1833,24 +1578,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH1/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -1883,9 +1616,7 @@
                                                 "address": "/CH1/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -1904,9 +1635,7 @@
                                                 "precision": 2,
                                                 "address": "/CH1/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -1925,9 +1654,7 @@
                                                 "address": "/CH1/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -1946,19 +1673,10 @@
                                                 "precision": 2,
                                                 "address": "/CH1/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH1",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -2056,9 +1774,7 @@
                                                         "q": "/CH1/eq_params/lpres",
                                                         "on": "/CH1/eq_params/lpactive"
                                                     }
-                                                ],
-                                                "pips": true,
-                                                "smooth": false
+                                                ]
                                             },
                                             {
                                                 "id": "Band 1",
@@ -2080,8 +1796,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/hpactive",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/hpfreq",
@@ -2112,12 +1827,8 @@
                                                         "address": "/CH1/eq_params/hpfreq",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/hpres",
@@ -2147,12 +1858,8 @@
                                                         "address": "/CH1/eq_params/hpres",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": 0,
@@ -2162,23 +1869,8 @@
                                                 "horizontal": false,
                                                 "color": "auto",
                                                 "css": "",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             },
                                             {
                                                 "id": "Band 2",
@@ -2200,8 +1892,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/lsactive",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/lsfreq",
@@ -2233,12 +1924,8 @@
                                                         "address": "/CH1/eq_params/lsfreq",
                                                         "spring": false,
                                                         "value": 500,
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/lsslope",
@@ -2268,12 +1955,8 @@
                                                         "address": "/CH1/eq_params/lsslope",
                                                         "spring": false,
                                                         "value": 0.7,
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/lsgain",
@@ -2301,12 +1984,8 @@
                                                         "address": "/CH1/eq_params/lsgain",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": "14.3%",
@@ -2316,23 +1995,8 @@
                                                 "horizontal": false,
                                                 "color": "auto",
                                                 "css": "",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             },
                                             {
                                                 "type": "strip",
@@ -2353,8 +2017,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/pk1active",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk1freq",
@@ -2386,12 +2049,8 @@
                                                         "address": "/CH1/eq_params/pk1freq",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk1q",
@@ -2419,12 +2078,8 @@
                                                         "spring": false,
                                                         "value": "",
                                                         "origin": "auto",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk1gain",
@@ -2452,12 +2107,8 @@
                                                         "address": "/CH1/eq_params/pk1gain",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": "28.6%",
@@ -2468,23 +2119,8 @@
                                                 "color": "auto",
                                                 "css": "",
                                                 "id": "Band 3",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             },
                                             {
                                                 "id": "Band 7",
@@ -2506,8 +2142,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/lpactive",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/lpfreq",
@@ -2535,12 +2170,8 @@
                                                         "address": "/CH1/eq_params/lpfreq",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/lpres",
@@ -2570,12 +2201,8 @@
                                                         "address": "/CH1/eq_params/lpres",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": "85.8%",
@@ -2585,23 +2212,8 @@
                                                 "horizontal": false,
                                                 "color": "auto",
                                                 "css": "",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             },
                                             {
                                                 "type": "strip",
@@ -2622,8 +2234,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/pk3active",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk3freq",
@@ -2655,12 +2266,8 @@
                                                         "address": "/CH1/eq_params/pk3freq",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk3q",
@@ -2690,12 +2297,8 @@
                                                         "address": "/CH1/eq_params/pk3q",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk3gain",
@@ -2723,12 +2326,8 @@
                                                         "address": "/CH1/eq_params/pk3gain",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": "57.2%",
@@ -2739,23 +2338,8 @@
                                                 "color": "auto",
                                                 "css": "",
                                                 "id": "Band 5",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             },
                                             {
                                                 "id": "Band 6",
@@ -2777,8 +2361,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/hsactive",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/hsfreq",
@@ -2810,12 +2393,8 @@
                                                         "address": "/CH1/eq_params/hsfreq",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/hsslope",
@@ -2845,12 +2424,8 @@
                                                         "address": "/CH1/eq_params/hsslope",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/hsgain",
@@ -2878,12 +2453,8 @@
                                                         "address": "/CH1/eq_params/hsgain",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": "71.5%",
@@ -2893,23 +2464,8 @@
                                                 "horizontal": false,
                                                 "color": "auto",
                                                 "css": "",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             },
                                             {
                                                 "type": "strip",
@@ -2930,8 +2486,7 @@
                                                         "target": [],
                                                         "address": "/CH1/eq_params/pk2active",
                                                         "value": "",
-                                                        "doubleTap": false,
-                                                        "led": false
+                                                        "width": "auto"
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk2freq",
@@ -2963,12 +2518,8 @@
                                                         "address": "/CH1/eq_params/pk2freq",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk2q",
@@ -2998,12 +2549,8 @@
                                                         "address": "/CH1/eq_params/pk2q",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     },
                                                     {
                                                         "id": "/CH1/eq_params/pk2gain",
@@ -3031,12 +2578,8 @@
                                                         "address": "/CH1/eq_params/pk2gain",
                                                         "spring": false,
                                                         "value": "",
-                                                        "pips": true,
-                                                        "input": true,
-                                                        "dashed": false,
-                                                        "doubleTap": false,
-                                                        "touchAddress": "",
-                                                        "meterAddress": ""
+                                                        "width": "auto",
+                                                        "noPip": false
                                                     }
                                                 ],
                                                 "left": "42.9%",
@@ -3047,35 +2590,13 @@
                                                 "color": "auto",
                                                 "css": "",
                                                 "id": "Band 4",
-                                                "scroll": true,
-                                                "stretch": false,
-                                                "border": true,
-                                                "spacing": 0,
-                                                "variables": "@{parent.variables}",
-                                                "_geometry": "geometry",
                                                 "_style": "style",
-                                                "_panel": "panel",
-                                                "layout": "",
-                                                "value": "",
-                                                "_osc": "osc",
-                                                "precision": 0,
-                                                "address": "auto",
-                                                "preArgs": [],
-                                                "target": [],
-                                                "_children": "children",
-                                                "tabs": []
+                                                "_children": "children"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/panel_1",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     }
                                 ],
                                 "type": "tab",
@@ -3156,12 +2677,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -3214,32 +2731,13 @@
                                                 "label": "CH2",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -3270,9 +2768,7 @@
                                                 "precision": 2,
                                                 "address": "/CH2/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -3291,9 +2787,7 @@
                                                 "precision": 2,
                                                 "address": "/CH2/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -3312,9 +2806,7 @@
                                                 "precision": 2,
                                                 "address": "/CH2/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -3333,9 +2825,7 @@
                                                 "address": "/CH2/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -3354,21 +2844,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH2/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -3436,12 +2917,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -3497,12 +2973,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -3558,12 +3029,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -3619,24 +3085,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH2/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -3669,9 +3123,7 @@
                                                 "address": "/CH2/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -3690,9 +3142,7 @@
                                                 "precision": 2,
                                                 "address": "/CH2/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -3711,9 +3161,7 @@
                                                 "address": "/CH2/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -3732,19 +3180,10 @@
                                                 "precision": 2,
                                                 "address": "/CH2/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH2",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -3784,8 +3223,7 @@
                                                 "target": [],
                                                 "address": "/CH1/eq_params/pk2active",
                                                 "value": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "auto"
                                             },
                                             {
                                                 "id": "/CH1/eq_params/pk2freq",
@@ -3813,12 +3251,8 @@
                                                 "address": "/CH1/eq_params/pk2freq",
                                                 "spring": false,
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "id": "/CH1/eq_params/pk2q",
@@ -3846,12 +3280,8 @@
                                                 "address": "/CH1/eq_params/pk2q",
                                                 "spring": false,
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "id": "/CH1/eq_params/pk2gain",
@@ -3879,12 +3309,8 @@
                                                 "address": "/CH1/eq_params/pk2gain",
                                                 "spring": false,
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "left": 360,
@@ -3895,23 +3321,8 @@
                                         "color": "auto",
                                         "css": "",
                                         "id": "Band 4",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
-                                        "_geometry": "geometry",
                                         "_style": "style",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "_children": "children",
-                                        "tabs": []
+                                        "_children": "children"
                                     }
                                 ],
                                 "type": "tab",
@@ -3992,12 +3403,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -4050,32 +3457,13 @@
                                                 "label": "CH3",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -4106,9 +3494,7 @@
                                                 "precision": 2,
                                                 "address": "/CH3/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4127,9 +3513,7 @@
                                                 "precision": 2,
                                                 "address": "/CH3/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4148,9 +3532,7 @@
                                                 "precision": 2,
                                                 "address": "/CH3/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4169,9 +3551,7 @@
                                                 "address": "/CH3/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -4190,21 +3570,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH3/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -4272,12 +3643,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -4333,12 +3699,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -4394,12 +3755,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -4455,24 +3811,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH3/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -4505,9 +3849,7 @@
                                                 "address": "/CH3/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -4526,9 +3868,7 @@
                                                 "precision": 2,
                                                 "address": "/CH3/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4547,9 +3887,7 @@
                                                 "address": "/CH3/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -4568,19 +3906,10 @@
                                                 "precision": 2,
                                                 "address": "/CH3/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH3",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -4679,12 +4008,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -4737,32 +4062,13 @@
                                                 "label": "CH4",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -4793,9 +4099,7 @@
                                                 "precision": 2,
                                                 "address": "/CH4/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4814,9 +4118,7 @@
                                                 "precision": 2,
                                                 "address": "/CH4/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4835,9 +4137,7 @@
                                                 "precision": 2,
                                                 "address": "/CH4/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -4856,9 +4156,7 @@
                                                 "address": "/CH4/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -4877,21 +4175,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH4/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -4959,12 +4248,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5020,12 +4304,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5081,12 +4360,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5142,24 +4416,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH4/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -5192,9 +4454,7 @@
                                                 "address": "/CH4/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -5213,9 +4473,7 @@
                                                 "precision": 2,
                                                 "address": "/CH4/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -5234,9 +4492,7 @@
                                                 "address": "/CH4/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -5255,19 +4511,10 @@
                                                 "precision": 2,
                                                 "address": "/CH4/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH4",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -5366,12 +4613,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5424,32 +4667,13 @@
                                                 "label": "CH5",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -5480,9 +4704,7 @@
                                                 "precision": 2,
                                                 "address": "/CH5/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -5501,9 +4723,7 @@
                                                 "precision": 2,
                                                 "address": "/CH5/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -5522,9 +4742,7 @@
                                                 "precision": 2,
                                                 "address": "/CH5/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -5543,9 +4761,7 @@
                                                 "address": "/CH5/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -5564,21 +4780,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH5/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -5646,12 +4853,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5707,12 +4909,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5768,12 +4965,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -5829,24 +5021,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH5/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -5879,9 +5059,7 @@
                                                 "address": "/CH5/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -5900,9 +5078,7 @@
                                                 "precision": 2,
                                                 "address": "/CH5/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -5921,9 +5097,7 @@
                                                 "address": "/CH5/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -5942,19 +5116,10 @@
                                                 "precision": 2,
                                                 "address": "/CH5/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH5",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -6053,12 +5218,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -6111,32 +5272,13 @@
                                                 "label": "CH6",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -6167,9 +5309,7 @@
                                                 "precision": 2,
                                                 "address": "/CH6/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6188,9 +5328,7 @@
                                                 "precision": 2,
                                                 "address": "/CH6/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6209,9 +5347,7 @@
                                                 "precision": 2,
                                                 "address": "/CH6/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6230,9 +5366,7 @@
                                                 "address": "/CH6/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -6251,21 +5385,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH6/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -6333,12 +5458,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -6394,12 +5514,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -6455,12 +5570,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -6516,24 +5626,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH6/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -6566,9 +5664,7 @@
                                                 "address": "/CH6/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -6587,9 +5683,7 @@
                                                 "precision": 2,
                                                 "address": "/CH6/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6608,9 +5702,7 @@
                                                 "address": "/CH6/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -6629,19 +5721,10 @@
                                                 "precision": 2,
                                                 "address": "/CH6/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH6",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -6740,12 +5823,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -6798,32 +5877,13 @@
                                                 "label": "CH7",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -6854,9 +5914,7 @@
                                                 "precision": 2,
                                                 "address": "/CH7/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6875,9 +5933,7 @@
                                                 "precision": 2,
                                                 "address": "/CH7/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6896,9 +5952,7 @@
                                                 "precision": 2,
                                                 "address": "/CH7/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -6917,9 +5971,7 @@
                                                 "address": "/CH7/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -6938,21 +5990,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH7/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -7020,12 +6063,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7081,12 +6119,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7142,12 +6175,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7203,24 +6231,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH7/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -7253,9 +6269,7 @@
                                                 "address": "/CH7/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -7274,9 +6288,7 @@
                                                 "precision": 2,
                                                 "address": "/CH7/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -7295,9 +6307,7 @@
                                                 "address": "/CH7/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -7316,19 +6326,10 @@
                                                 "precision": 2,
                                                 "address": "/CH7/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH7",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -7427,12 +6428,8 @@
                                                 "alignRight": false,
                                                 "horizontal": true,
                                                 "meter": false,
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7485,32 +6482,13 @@
                                                 "label": "CH8",
                                                 "value": "",
                                                 "css": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "width": "auto",
+                                                "noPip": false
                                             }
                                         ],
                                         "height": "100%",
-                                        "scroll": true,
-                                        "stretch": false,
-                                        "border": true,
-                                        "spacing": 0,
-                                        "variables": "@{parent.variables}",
                                         "_style": "style",
-                                        "_children": "children",
-                                        "_geometry": "geometry",
-                                        "_panel": "panel",
-                                        "layout": "",
-                                        "value": "",
-                                        "_osc": "osc",
-                                        "precision": 0,
-                                        "address": "auto",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "tabs": []
+                                        "_children": "children"
                                     },
                                     {
                                         "type": "panel",
@@ -7541,9 +6519,7 @@
                                                 "precision": 2,
                                                 "address": "/CH8/G12/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -7562,9 +6538,7 @@
                                                 "precision": 2,
                                                 "address": "/CH8/G34/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -7583,9 +6557,7 @@
                                                 "precision": 2,
                                                 "address": "/CH8/G56/assign-bus",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -7604,9 +6576,7 @@
                                                 "address": "/CH8/G78/assign-bus",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -7625,21 +6595,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "width": "100%",
-                                                "height": "20%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "height": "20%"
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH8/GROUPS",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -7707,12 +6668,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "value": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7768,12 +6724,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7829,12 +6780,7 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             },
                                             {
                                                 "type": "fader",
@@ -7890,24 +6836,12 @@
                                                 "preArgs": [],
                                                 "target": [],
                                                 "linkId": "",
-                                                "pips": true,
-                                                "input": true,
-                                                "dashed": false,
-                                                "doubleTap": false,
-                                                "touchAddress": "",
-                                                "meterAddress": ""
+                                                "noPip": false
                                             }
                                         ],
                                         "tabs": [],
                                         "layout": "",
-                                        "spacing": 0,
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "//CH8/AUX-BUSES",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "spacing": 0
                                     },
                                     {
                                         "type": "panel",
@@ -7940,9 +6874,7 @@
                                                 "address": "/CH8/player",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "width": "100%",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "width": "100%"
                                             },
                                             {
                                                 "type": "toggle",
@@ -7961,9 +6893,7 @@
                                                 "precision": 2,
                                                 "address": "/CH8/phase",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             },
                                             {
                                                 "type": "toggle",
@@ -7982,9 +6912,7 @@
                                                 "address": "/CH8/solo",
                                                 "preArgs": [],
                                                 "target": [],
-                                                "css": "",
-                                                "doubleTap": false,
-                                                "led": false
+                                                "css": ""
                                             },
                                             {
                                                 "type": "toggle",
@@ -8003,19 +6931,10 @@
                                                 "precision": 2,
                                                 "address": "/CH8/mute",
                                                 "preArgs": [],
-                                                "target": [],
-                                                "doubleTap": false,
-                                                "led": false
+                                                "target": []
                                             }
                                         ],
-                                        "tabs": [],
-                                        "border": true,
-                                        "value": "",
-                                        "precision": 0,
-                                        "address": "/CH8",
-                                        "preArgs": [],
-                                        "target": [],
-                                        "variables": "@{parent.variables}"
+                                        "tabs": []
                                     }
                                 ],
                                 "type": "tab",
@@ -8140,12 +7059,7 @@
                                 "address": "/CH1/aux/AUX1/fader",
                                 "preArgs": [],
                                 "target": [],
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8201,12 +7115,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8262,12 +7171,7 @@
                                 "target": [],
                                 "linkId": "",
                                 "id": "/CH3/aux/AUX1/fader",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8323,12 +7227,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8384,12 +7283,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8445,12 +7339,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8506,12 +7395,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8567,12 +7451,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             }
                         ],
                         "id": "tab_28",
@@ -8647,12 +7526,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8708,12 +7582,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8769,12 +7638,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8830,12 +7694,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8891,12 +7750,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -8952,12 +7806,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9013,12 +7862,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9074,12 +7918,7 @@
                                 "target": [],
                                 "linkId": "",
                                 "height": "100%",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             }
                         ],
                         "id": "tab_29",
@@ -9154,12 +7993,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9215,12 +8049,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9276,12 +8105,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9337,12 +8161,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9398,12 +8217,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9459,12 +8273,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9520,12 +8329,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9581,12 +8385,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             }
                         ],
                         "id": "tab_30",
@@ -9661,12 +8460,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9722,12 +8516,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9783,12 +8572,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9844,12 +8628,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9905,12 +8684,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -9966,12 +8740,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -10027,12 +8796,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             },
                             {
                                 "type": "fader",
@@ -10088,12 +8852,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "linkId": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "noPip": false
                             }
                         ],
                         "id": "tab_31",
@@ -10141,8 +8900,7 @@
                                         "preArgs": [],
                                         "target": [],
                                         "css": "",
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     },
                                     {
                                         "type": "fader",
@@ -10195,12 +8953,8 @@
                                         "label": "AUX1",
                                         "value": "",
                                         "css": "",
-                                        "pips": true,
-                                        "input": true,
-                                        "dashed": false,
-                                        "doubleTap": false,
-                                        "touchAddress": "",
-                                        "meterAddress": ""
+                                        "width": "auto",
+                                        "noPip": false
                                     },
                                     {
                                         "type": "toggle",
@@ -10217,28 +8971,12 @@
                                         "address": "/AUX1/mute",
                                         "preArgs": [],
                                         "target": [],
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     }
                                 ],
                                 "height": "100%",
-                                "scroll": true,
-                                "stretch": false,
-                                "border": true,
-                                "spacing": 0,
-                                "variables": "@{parent.variables}",
                                 "_style": "style",
-                                "_children": "children",
-                                "_geometry": "geometry",
-                                "_panel": "panel",
-                                "layout": "",
-                                "value": "",
-                                "_osc": "osc",
-                                "precision": 0,
-                                "address": "auto",
-                                "preArgs": [],
-                                "target": [],
-                                "tabs": []
+                                "_children": "children"
                             },
                             {
                                 "type": "strip",
@@ -10266,8 +9004,7 @@
                                         "preArgs": [],
                                         "target": [],
                                         "css": "",
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     },
                                     {
                                         "type": "fader",
@@ -10320,12 +9057,8 @@
                                         "label": "AUX2",
                                         "value": "",
                                         "css": "",
-                                        "pips": true,
-                                        "input": true,
-                                        "dashed": false,
-                                        "doubleTap": false,
-                                        "touchAddress": "",
-                                        "meterAddress": ""
+                                        "width": "auto",
+                                        "noPip": false
                                     },
                                     {
                                         "type": "toggle",
@@ -10342,28 +9075,12 @@
                                         "address": "/AUX2/mute",
                                         "preArgs": [],
                                         "target": [],
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     }
                                 ],
                                 "height": "100%",
-                                "scroll": true,
-                                "stretch": false,
-                                "border": true,
-                                "spacing": 0,
-                                "variables": "@{parent.variables}",
                                 "_style": "style",
-                                "_children": "children",
-                                "_geometry": "geometry",
-                                "_panel": "panel",
-                                "layout": "",
-                                "value": "",
-                                "_osc": "osc",
-                                "precision": 0,
-                                "address": "auto",
-                                "preArgs": [],
-                                "target": [],
-                                "tabs": []
+                                "_children": "children"
                             },
                             {
                                 "type": "strip",
@@ -10391,8 +9108,7 @@
                                         "preArgs": [],
                                         "target": [],
                                         "css": "",
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     },
                                     {
                                         "type": "fader",
@@ -10445,12 +9161,8 @@
                                         "label": "AUX3",
                                         "value": "",
                                         "css": "",
-                                        "pips": true,
-                                        "input": true,
-                                        "dashed": false,
-                                        "doubleTap": false,
-                                        "touchAddress": "",
-                                        "meterAddress": ""
+                                        "width": "auto",
+                                        "noPip": false
                                     },
                                     {
                                         "type": "toggle",
@@ -10467,28 +9179,12 @@
                                         "address": "/AUX3/mute",
                                         "preArgs": [],
                                         "target": [],
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     }
                                 ],
                                 "height": "100%",
-                                "scroll": true,
-                                "stretch": false,
-                                "border": true,
-                                "spacing": 0,
-                                "variables": "@{parent.variables}",
                                 "_style": "style",
-                                "_children": "children",
-                                "_geometry": "geometry",
-                                "_panel": "panel",
-                                "layout": "",
-                                "value": "",
-                                "_osc": "osc",
-                                "precision": 0,
-                                "address": "auto",
-                                "preArgs": [],
-                                "target": [],
-                                "tabs": []
+                                "_children": "children"
                             },
                             {
                                 "type": "strip",
@@ -10516,8 +9212,7 @@
                                         "preArgs": [],
                                         "target": [],
                                         "css": "",
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     },
                                     {
                                         "type": "fader",
@@ -10570,12 +9265,8 @@
                                         "label": "AUX4",
                                         "value": "",
                                         "css": "",
-                                        "pips": true,
-                                        "input": true,
-                                        "dashed": false,
-                                        "doubleTap": false,
-                                        "touchAddress": "",
-                                        "meterAddress": ""
+                                        "width": "auto",
+                                        "noPip": false
                                     },
                                     {
                                         "type": "toggle",
@@ -10592,28 +9283,12 @@
                                         "address": "/AUX4/mute",
                                         "preArgs": [],
                                         "target": [],
-                                        "doubleTap": false,
-                                        "led": false
+                                        "width": "auto"
                                     }
                                 ],
                                 "height": "100%",
-                                "scroll": true,
-                                "stretch": false,
-                                "border": true,
-                                "spacing": 0,
-                                "variables": "@{parent.variables}",
                                 "_style": "style",
-                                "_children": "children",
-                                "_geometry": "geometry",
-                                "_panel": "panel",
-                                "layout": "",
-                                "value": "",
-                                "_osc": "osc",
-                                "precision": 0,
-                                "address": "auto",
-                                "preArgs": [],
-                                "target": [],
-                                "tabs": []
+                                "_children": "children"
                             }
                         ],
                         "type": "tab",
@@ -10709,12 +9384,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -10731,8 +9402,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -10785,12 +9455,8 @@
                                 "label": "G12",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -10807,28 +9473,12 @@
                                 "address": "/G12/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -10871,12 +9521,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -10893,8 +9539,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -10947,12 +9592,8 @@
                                 "label": "G34",
                                 "value": "",
                                 "css": "",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -10969,28 +9610,12 @@
                                 "address": "/G34/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -11033,12 +9658,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -11055,8 +9676,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -11109,12 +9729,8 @@
                                 "value": "",
                                 "css": "",
                                 "address": "/G56/fader",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -11131,28 +9747,12 @@
                                 "address": "/G56/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -11195,12 +9795,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -11217,8 +9813,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -11271,12 +9866,8 @@
                                 "value": "",
                                 "css": "",
                                 "address": "/G78/fader",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -11293,28 +9884,12 @@
                                 "address": "/G78/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     },
                     {
                         "type": "strip",
@@ -11357,12 +9932,8 @@
                                 "alignRight": false,
                                 "horizontal": true,
                                 "meter": false,
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -11379,8 +9950,7 @@
                                 "preArgs": [],
                                 "target": [],
                                 "css": "",
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             },
                             {
                                 "type": "fader",
@@ -11433,12 +10003,8 @@
                                 "value": "",
                                 "css": "",
                                 "address": "/L-R/fader",
-                                "pips": true,
-                                "input": true,
-                                "dashed": false,
-                                "doubleTap": false,
-                                "touchAddress": "",
-                                "meterAddress": ""
+                                "width": "auto",
+                                "noPip": false
                             },
                             {
                                 "type": "toggle",
@@ -11455,28 +10021,12 @@
                                 "address": "/L-R/mute",
                                 "preArgs": [],
                                 "target": [],
-                                "doubleTap": false,
-                                "led": false
+                                "width": "auto"
                             }
                         ],
                         "height": "100%",
-                        "scroll": true,
-                        "stretch": false,
-                        "border": true,
-                        "spacing": 0,
-                        "variables": "@{parent.variables}",
                         "_style": "style",
-                        "_children": "children",
-                        "_geometry": "geometry",
-                        "_panel": "panel",
-                        "layout": "",
-                        "value": "",
-                        "_osc": "osc",
-                        "precision": 0,
-                        "address": "auto",
-                        "preArgs": [],
-                        "target": [],
-                        "tabs": []
+                        "_children": "children"
                     }
                 ],
                 "type": "tab",
@@ -11498,7 +10048,7 @@
                 "id": "tab_35",
                 "widgets": [
                     {
-                        "type": "push",
+                        "type": "toggle",
                         "top": 0,
                         "left": 0,
                         "id": "/rec-stop",
@@ -11510,11 +10060,11 @@
                         "css": "",
                         "on": 1,
                         "off": 0,
-                        "norelease": false,
                         "precision": 2,
                         "address": "/rec-stop",
                         "preArgs": [],
-                        "target": []
+                        "target": [],
+                        "value": ""
                     },
                     {
                         "type": "push",
@@ -11536,7 +10086,7 @@
                         "target": []
                     },
                     {
-                        "type": "push",
+                        "type": "toggle",
                         "top": "50%",
                         "left": "0%",
                         "id": "/play-stop",
@@ -11548,14 +10098,14 @@
                         "css": "",
                         "on": 1,
                         "off": 0,
-                        "norelease": false,
                         "precision": 2,
                         "address": "/play-stop",
                         "preArgs": [],
-                        "target": []
+                        "target": [],
+                        "value": ""
                     },
                     {
-                        "type": "push",
+                        "type": "toggle",
                         "top": "50%",
                         "left": "50%",
                         "id": "INPUT SELECTOR",
@@ -11566,12 +10116,12 @@
                         "css": "",
                         "on": 1,
                         "off": 0,
-                        "norelease": false,
                         "precision": 2,
                         "address": "/playrec/player",
                         "preArgs": [],
                         "target": [],
-                        "label": "INPUT SELECTOR"
+                        "label": "INPUT SELECTOR",
+                        "value": ""
                     }
                 ],
                 "type": "tab",
@@ -11665,12 +10215,7 @@
                         "address": "/solo/fader",
                         "top": "30%",
                         "left": "80%",
-                        "pips": true,
-                        "input": true,
-                        "dashed": false,
-                        "doubleTap": false,
-                        "touchAddress": "",
-                        "meterAddress": ""
+                        "noPip": false
                     },
                     {
                         "type": "switch",
@@ -11831,6 +10376,6 @@
         "variables": {},
         "id": "root",
         "scroll": true,
-        "label": false
+        "label": "root"
     }
 ]
